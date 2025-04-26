@@ -75,8 +75,4 @@ Production URL: [layer-caker-peach.vercel.app](https://layer-caker-peach.vercel.
 
 ## 📜 License
 
-MIT @ John James
-
----
-
-> _"Horses don’t stop, they keep goin’."_ 🐎  
+MIT
