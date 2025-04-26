@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍰 Layer Caker
 
-## Getting Started
+**Layer Caker** is a content-driven web app built with **Next.js** and **Sanity** and deployed via **Vercel**. This project follows the official [Sanity + Next.js tutorial](https://www.sanity.io/learn/course/content-driven-web-application-foundations/building-a-content-editable-website) to provide a smooth foundation for fast, flexible content delivery and collaborative editing.
 
-First, run the development server:
+---
 
+## 🛠️ Tech Stack
+
+- 🖼️ [Next.js](https://nextjs.org/) — React-based framework for server-rendered apps
+- 🧠 [Sanity.io](https://www.sanity.io/) — Headless CMS with real-time collaboration
+- 🟢 [Vercel](https://vercel.com/) — Seamless deployment and hosting
+- 🛠️ TypeScript — Strong typing for safety and DX
+- 💅 ESLint + Prettier — Consistent code style
+- 📦 pnpm — Fast, efficient package management
+- 📸 Integrated image handling via Sanity and Next.js
+- 📅 [dayjs](https://day.js.org/) — Lightweight date formatting
+
+---
+
+## 🚀 Getting Started
+
+### 📥 Install dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🌎 Start the dev server
+```bash
+pnpm dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🧪 Sanity Studio setup (optional)
+If you're using the paired Sanity Studio:
+```bash
+pnpm sanity start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── public/                # Static assets
+├── src/                   # Application source code
+├── sanity.config.ts       # Sanity client configuration
+├── sanity.cli.ts          # Sanity CLI setup
+├── sanity-typegen.json    # Sanity type generation config
+├── next.config.ts         # Next.js config
+├── tsconfig.json          # TypeScript config
+├── eslint.config.mjs      # ESLint config
+├── postcss.config.mjs     # PostCSS config
+├── pnpm-lock.yaml         # Lockfile for reproducible builds
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧹 Available Scripts
 
-## Deploy on Vercel
+| Script                 | Purpose                                 |
+|------------------------|-----------------------------------------|
+| `pnpm dev`             | Start Next.js dev server                |
+| `pnpm build`           | Build the Next.js app for production    |
+| `pnpm lint`            | Run ESLint on the project               |
+| `pnpm format`          | Format the codebase with Prettier       |
+| `pnpm sanity start`    | Start the Sanity Studio (if included)   |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Deployment
+
+Deployed with [Vercel](https://vercel.com/) 🌩️  
+Production URL: [layer-caker-peach.vercel.app](https://layer-caker-peach.vercel.app)
+
+---
+
+## 📜 License
+
+MIT @ John James
+
+---
+
+> _"Horses don’t stop, they keep goin’."_ 🐎  
